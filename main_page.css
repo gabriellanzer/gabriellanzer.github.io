@@ -1,0 +1,36 @@
+
+/* Page background on dark */
+body {
+    color: white;
+    background-color: black;
+}
+
+.wrapper{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#leftHeader{
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 6px;
+    border-right: thick solid #ffffff;
+    width: auto;
+    font-family: sans-serif;
+}
+
+#rightHeader{
+    display: inline-block;
+    vertical-align: middle;
+    width: 160px;
+    padding-left: 4px;
+    font-family: monospace;
+    text-align: left;
+    font-size: 15px;
+}
+
+#gradProjects {
+    color: white;
+}
