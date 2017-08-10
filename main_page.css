@@ -10,6 +10,8 @@ body {
     text-align: center;
 }
 
+/* Header */
+
 #leftHeader{
     display: inline-block;
     text-align: right;
@@ -30,6 +32,8 @@ body {
     font-size: 20px;
 }
 
+/* Horizontal Line */
+
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -38,34 +42,17 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0));
 }
 
+/* Projects Section */
+
 #gradProjects
 {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
+
+/* First Project */
 
 #l1{
-    display: inline-block;
-    text-align: right;
-    vertical-align: middle;
-    width: 500px;
-    padding-right: 6px;
-    border-right: 1px solid #ffffff;
-    font-family: monospace;
-    font-style: italic;
-    font-size: 18px;
-}
-
-#r1{
-    display: inline-block;
-    vertical-align: middle;
-    width: 0px;
-    padding-left: 4px;
-    font-family: sans-serif;
-    text-align: left;
-    font-size: 25px;
-}
-
-#l2{
     display: inline-block;
     text-align: right;
     vertical-align: middle;
@@ -76,14 +63,14 @@ hr {
     font-size: 18px;
 }
 
-#l2 p{
+#l1 p{
     font-family: monospace;
     font-style: italic;
-    width: 300px;
+    width: 320px;
     font-size: 18px;
 }
 
-#r2{
+#r1{
     display: inline-block;
     vertical-align: middle;
     width: 200px;
@@ -94,8 +81,128 @@ hr {
     margin-right: 40%;
 }
 
-#r2 img{
+#r1 img{
     display: block;
     max-height: 400px;
     max-width:  600px;
+}
+
+/* Second Project */
+
+#l2{
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 4px;
+    width: auto;
+    font-family: monospace;
+    text-align: right;
+    font-size: 15px;
+    margin-left: 25%;
+}
+
+#l2 img{
+    display: block;
+    max-height: 400px;
+    max-width:  600px;
+}
+
+#r2{
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    width: auto;
+    padding-left: 6px;
+    border-left: 1px solid #ffffff;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+#r2 p{
+    font-family: monospace;
+    font-style: italic;
+    width: 500px;
+    font-size: 18px;
+}
+
+/* Third Project */
+
+#l3{
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    width: auto;
+    padding-right: 6px;
+    border-right: 1px solid #ffffff;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+#l3 p{
+    font-family: monospace;
+    font-style: italic;
+    width: 320px;
+    font-size: 18px;
+}
+
+#r3{
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    padding-left: 4px;
+    font-family: monospace;
+    text-align: left;
+    font-size: 15px;
+    margin-right: 20%;
+}
+
+#r3 img{
+    display: block;
+    max-height: 400px;
+    max-width:  600px;
+}
+
+/* Override all description paragraphs */
+p{
+    color: azure;
+}
+
+/* Contact section */
+#contact{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#contactLabel{
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 4px;
+    height: auto;
+    width: 150px;
+    font-family: sans-serif;
+}
+
+#contactData{
+    display: inline-block;
+    vertical-align: middle;
+    width: 240px;
+    height: auto;
+    padding-left: 6px;
+    border-left: 2px solid #ffffff;
+    font-family: monospace;
+    font-style: italic;
+    text-align: left;
+    font-size: 20px;
+    line-height: 6px;
+    color: black;
+}
+
+h2{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: lightgray;
 }
