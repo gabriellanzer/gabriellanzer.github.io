@@ -65,7 +65,7 @@ a:hover{
     padding: 0.5rem;
     max-width: 80rem;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .menu-item{
