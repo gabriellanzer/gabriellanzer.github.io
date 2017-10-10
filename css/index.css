@@ -1,0 +1,96 @@
+
+/* Page background on dark blue */
+html {
+    background-color: black;
+    color: floralwhite;
+}
+
+#info * {
+    margin: 0.3rem 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto; /* Make sure it's centralized! */
+    padding: 0.5rem;
+    max-width: 80rem;
+    align-items: center;
+}
+
+.menu-item{
+    display: inline-flex;
+    margin: 0 0.8rem;
+}
+
+.flex-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    padding: 0.5rem;
+}
+
+.flex-collumn{
+    flex-direction: column;
+}
+
+.flex-align-center{
+    align-content: center;
+}
+
+.flex-align-start{
+    align-content: flex-start;
+}
+
+.flex-align-end{
+    align-content: flex-end;
+}
+
+.flex-center{
+    margin: 0 auto;
+}
+
+.flex-right{
+    margin-left: auto;
+}
+
+.flex-left{
+    margin-right: auto;
+}
+
+.flex-inline{
+    display: inline-flex;
+}
+
+.order-0{
+    order: 0;
+}
+
+.order-1{
+    order: 1;
+}
+
+.order-2{
+    order: 2;
+}
+
+
+.no-padding{
+    padding: 0;
+}
+
+.no-margin{
+    margin: 0;
+}
