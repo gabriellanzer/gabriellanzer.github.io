@@ -2,11 +2,48 @@
 /* Page background on dark blue */
 html {
     background-color: black;
-    color: floralwhite;
+    color: white;
+}
+
+svg {
+    display: block;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+/* Social Media Icons Animation */
+
+.social-icon {
+    color: hsl(204, 0%, 50%);
+    fill: hsl(204, 0%, 50%);
+}
+
+.social-icon:hover {
+    background: hsl(204, 0%, 100%);
+    border-radius: 100%;
+    color: hsl(210, 45%, 0%);
+    fill: hsl(210, 45%, 0%);
+    transform: scale(1.25);
+    transition: background-color .5s, transform .5s ease-out;
+}
+
+a {
+    color: hsl(0, 0%, 60%);
+    text-decoration: none;
+}
+
+a:hover{
+    border: 2px;
+    color: hsl(0, 0%, 100%);
+    transition: all .2s ease-out;
 }
 
 #info * {
     margin: 0.3rem 0;
+}
+
+.pure-white{
+    color: hsl(0, 0%, 100%);
 }
 
 .text-center{
@@ -28,11 +65,19 @@ html {
     padding: 0.5rem;
     max-width: 80rem;
     align-items: center;
+    justify-content: space-around;
 }
 
 .menu-item{
     display: inline-flex;
     margin: 0 0.8rem;
+    font-style: italic;
+}
+
+.poetic {
+    font-family: sans-serif;
+    padding: 1rem;
+    max-width: 17rem;
 }
 
 .flex-wrapper{
@@ -93,4 +138,8 @@ html {
 
 .no-margin{
     margin: 0;
+}
+
+.no-style{
+    font-style: normal;
 }
