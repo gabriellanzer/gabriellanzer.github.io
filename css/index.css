@@ -83,8 +83,8 @@ a:hover{
 .flex-wrapper{
     display: flex;
     flex-wrap: wrap;
-    width: auto;
-    padding: 0.5rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .flex-collumn{
