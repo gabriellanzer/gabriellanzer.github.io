@@ -3,6 +3,7 @@
 html {
     background-color: black;
     color: white;
+    font-size: 1.5rem;
 }
 
 svg {
@@ -74,10 +75,20 @@ a:hover{
     font-style: italic;
 }
 
+.half-padding{
+    padding: 0.5rem;
+}
+
+.padding{
+    padding: 1rem;
+}
+
 .poetic {
-    font-family: sans-serif;
+    font-family: serif;
+    font-size: 1.2rem;
     padding: 1rem;
     max-width: 17rem;
+    color: floralwhite;
 }
 
 .flex-wrapper{
@@ -130,7 +141,6 @@ a:hover{
 .order-2{
     order: 2;
 }
-
 
 .no-padding{
     padding: 0;

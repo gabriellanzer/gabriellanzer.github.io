@@ -17,26 +17,36 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <link rel="stylesheet" type="text/css" href="css/index.css">
+        
+        <!-- Include Angular Lib-->
+        <script src="lib/angular.js"></script>
+        <script src="lib/angular-route.js"></script>
+        
+        <!-- Include Angular Controllers -->
+        <script src="js/AngularControllers.js"></script>
+        
+        <!-- Include Anguler Routes -->
+        <script src="js/AngularRoutes.js"></script>
+        
     </head>
     
-    <body>
+    <body ng-app="myApp">
         <header>
                 <nav class="menu">
-                    <div class="menu flex-center">
-                        <a class="menu-item text-center no-style pure-white"><h1>Gabriel Lanzer<br>Kannenberg</h1></a>
-<!--                        <p class="menu-item text-center poetic">I am a game developer, a mathematician enthusiast, and a musician by hobby.</p>-->
+                    <div class="half-padding flex-center">
+                        <a href="/#!/about" class="menu-item text-center no-style pure-white"><h1>Gabriel Lanzer<br>Kannenberg</h1></a>
                     </div>
                     <div class="flex-center flex-wrapper">
-                        <a class="menu-item"><h2>About</h2></a>
-                        <a class="menu-item"><h2>Works</h2></a>
+                        <a href="/#!/about" class="menu-item"><h2>About</h2></a>
+                        <a href="/#!/works" class="menu-item"><h2>Works</h2></a>
                     </div>
                 </nav> 
         </header>
 
-        <div>
-        
+        <!-- Angular Template View -->
+        <div ng-view class="flex-wrapper">
+            
         </div>
-        
 
         <footer>
             
@@ -73,7 +83,7 @@
             
             <div id="info" class="text-center">
                 <h5><i>Done with HTML5, CSS3, AngularJS. Written with Brackets, tested on Google Chrome - 2017.</i></h5>
-                <h5><i>Code by Gabriel Lanzer Kannenberg and available at <a href="https://gabriellanzer.github.io">GitHub</a></i></h5>
+                <h5><i>Code by Gabriel Lanzer Kannenberg and available at <a href="https://github.com/gabriellanzer/gabriellanzer.github.io">GitHub</a></i></h5>
             </div>
             
         </footer>
