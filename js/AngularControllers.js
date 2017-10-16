@@ -1,12 +1,23 @@
 var myApp = angular.module('myApp', ["ngRoute"]);
 
 myApp.controller('WorksController', ['$scope', '$http', function($scope, $http) {
-    $scope.greeting = 'Hola!';
-    $scope.Init = function(){
-        console.log($scope.greeting);
-    }
+    
+    //Get projects JSON and 
     $http.get("/data/projects.json").then((response) => {
-        $scope.testText = response.data;
+        $scope.projects = response.data;
         console.log(response.data);
     });
+    
+    //Variable to control which project is currently enabled
+    $scope.selectedWork = "";
+    
+    //Function to change selected project
+    $scope.selectProject = function(project, event) {
+        
+        //Set selected project flag
+        $scope.projects.forEach(function(entry) {
+            entry.selected = (entry.name == project);
+        });
+    }
+    
 }]);

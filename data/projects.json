@@ -1,11 +1,26 @@
 [
     {
-        "nome":"Party Hats"
+        "name" : "Party Hats",
+        "description" : "Party Hats is a local-multiplayer game for up to 4 players in a competitive arena. It's most attractive asset is that it can be played not only using console controls (Xbox 360, Xbox One and PS4) but also with smartphones, through our Android App - UNControl.",
+        "url" : "https://twinravens.itch.io/party-hats",
+        "urlLabel" : "Itch.io",
+        "imageUrl" : "/img/Party Hats.png",
+        "selected" : false
     },
     {
-        "nome":"Cheflist Unisinos"
+        "name" : "Cheflist Unisinos",
+        "description" : "Cheflist is an Android App to show graduates of the gastronomy course of Unisinos (the university in which I study). It uses Google Maps API to show their restaurant location and SQL DataBase updates through HTTP requests. It was written in LUA and developed with Corona SDK.",
+        "url" : "https://play.google.com/store/apps/details?id=com.unisinos.gastronomia.cheflist",
+        "urlLabel" : "Google Play Store",
+        "imageUrl" : "/img/Cheflist.png",
+        "selected" : false
     },
     {
-        "nome":"Some shit I can't remember"
+        "name" : "Despeos",
+        "description" : "An Unity game developed to understand level design through recording of in-game analytic feedback. It uses level design to teach the game mechanics and behaviours. Programmed in C#.",
+        "url" : "https://lawendt.itch.io/despeos",
+        "urlLabel" : "Itch.io",
+        "imageUrl" : "/img/Despeos.png",
+        "selected" : false
     }
 ]

@@ -1,1 +1,25 @@
-<div ng-init="Init()"> {{ testText }}</div>
+<div class="flex-center flex-wrapper" ng-repeat="x in projects">
+
+    <div ng-click="selectProject(x.name)" class="flex-wrapper flex-collumn menu-item project" ng-class="{ 'selected' : x.selected }">
+
+        <!-- Load project name from projects JSON -->
+        <div class="text-center flex-center">{{x.name}}</div>
+
+        <!-- Project Information -->
+        <div class="flex-wrapper">
+
+            <!-- Load image from projects JSON -->
+            <img ng-src="{{x.imageUrl}}">
+
+            <!-- Only show description when selected -->
+            <div ng-show="x.selected" class="project-description text-center">
+                {{x.description}}
+                <br>
+                Available at <a ng-href="{{x.url}}" >{{x.urlLabel}}</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
